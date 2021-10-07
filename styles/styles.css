@@ -19,6 +19,9 @@ body {
   color: black;
   background-color: white;
 }
+.nav-list-item-icon {
+  list-style-type: none;
+}
 .main-nav {
   color: black;
   background-color: white;
@@ -33,22 +36,168 @@ body {
   text-decoration: none;
   text-transform: uppercase;
 }
-.nav-list-item-want {
+.navi-item-here {
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.navi-here {
+  background: #756257;
   width: 160px;
   height: 37px;
-  border-radius: 4px;
-  background: #756257;
-}
-.navi-item-here {
   font-family: "PT Sans", sans-serif;
   font-size: 16px;
   line-height: 21px;
   font-weight: 700;
-  text-align: center;
   color: white;
+  border-radius: 4px;
+}
+.image-main {
+  color: white;
+  background-image: url("image/index/index-background.jpg");
+  background-size: 100% auto;
+  background-repeat:no-repeat;
+}
+.main-section-image {
+  text-align: center;
+}
+.main-text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+  background-color: white;
+}
+.causes-p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 36px;
+  text-align: center;
+  color: #333333;
+  background-color: white;
+}
+.causes-one {
+  text-align: center;
+}
+.causes-one-list-item-one {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+.causes-one-list-item-two {
+  font-style: normal;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: white;
+}
+.causes-one-list-item {
+  background: #83B3D3;
+}
+.blacktext {
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.causes-three-list-right {
+  background: #83B3D3;
+}
+.causes-two-list-item-thee {
+  color: #333333;
+}
+.causes-two-list-item-two {
+  color: #333333;
+}
+.causes-four-list-center {
+  background: rgba(131, 179, 211, 0.2);
+}
+.hotel-search {
+  text-align: center;
+}
+.hotel-search-list-item {
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+}
+.search-braun {
+  text-align: center;
   text-decoration: none;
   text-transform: uppercase;
 }
-.main-section-image {
-  background-image: url("image/index/index-background.jpg");
+.braun {
+  background: #756257;
+  width: 575px;
+  height: 60px;
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  line-height: 36px;
+  border-radius: 10px;
+  font-weight: 700;
+  color: white;
+}
+.subscription {
+  background-image: url("image/index/background-image.jpg");
+  background-size: 100% auto;
+  background-repeat:no-repeat;
+}
+.subscription-list {
+  text-align: center;
+}
+.whitetext {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.subscription-list-item {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  list-style-type: none;
+}
+.form-two-button {
+  background: #F2F2F2;
+  border-radius: 10px 0px 0px 10px;
+  width: 600px;
+  height: 60px;
+}
+.button {
+  width: 200px;
+  height: 60px;
+  background: #83B3D3;
+  border-radius: 0px 10px 10px 0px;
+  color: white;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.nav-list-left {
+  list-style-type: none;
+}
+.tel {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+  text-align: center;
+  color: inherit;
+  text-decoration: none;
+  text-transform: uppercase;
+  list-style-type: none;
 }
