@@ -27,7 +27,6 @@ body {
   background-color: white;
 }
 .navi-item {
-  font-family: "PT Sans", sans-serif;
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
@@ -36,16 +35,16 @@ body {
   text-decoration: none;
   text-transform: uppercase;
 }
-.navi-item-here {
+.nav-list-item-here {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+  width: 160px;
+  height: 37px;
+  list-style-type: none;
 }
 .navi-here {
   background: #756257;
-  width: 160px;
-  height: 37px;
-  font-family: "PT Sans", sans-serif;
   font-size: 16px;
   line-height: 21px;
   font-weight: 700;
@@ -127,10 +126,14 @@ body {
   line-height: 26px;
   color: #333333;
 }
-.search-braun {
+.hotel-search-list-the {
   text-align: center;
-  text-decoration: none;
   text-transform: uppercase;
+  width: 575px;
+  height: 60px;
+}
+.search-braun {
+  text-decoration: none;
 }
 .braun {
   background: #756257;
@@ -142,6 +145,7 @@ body {
   border-radius: 10px;
   font-weight: 700;
   color: white;
+  text-decoration: none;
 }
 .subscription {
   background-image: url("image/index/background-image.jpg");
