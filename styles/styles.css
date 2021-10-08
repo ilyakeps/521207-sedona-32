@@ -36,40 +36,40 @@ body {
   text-transform: uppercase;
 }
 .search-braun {
-  font-weight: bold;
   font-size: 16px;
   line-height: 21px;
+  font-weight: bold;
   text-align: center;
-  text-transform: uppercase;
+  color: white;
   background: #756257;
   border-radius: 4px;
-  color: white;
+  text-transform: uppercase;
 }
 .image-main {
   color: white;
+  background-color: #FFFFFF;
   background-image: url("image/index/index-background.jpg");
   background-size: 100% auto;
   background-repeat:no-repeat;
-  background-color: #FFFFFF;
 }
 .main-section-image {
   text-align: center;
 }
 .main-text {
   font-style: normal;
-  font-weight: bold;
   font-size: 30px;
   line-height: 36px;
+  font-weight: bold;
   text-align: center;
-  text-transform: uppercase;
   color: black;
   background-color: white;
+  text-transform: uppercase;
 }
 .causes-p {
   font-style: normal;
-  font-weight: normal;
   font-size: 22px;
   line-height: 36px;
+  font-weight: normal;
   text-align: center;
   color: #333333;
   background-color: white;
@@ -79,18 +79,18 @@ body {
 }
 .causes-one-list-item-one {
   font-style: normal;
-  font-weight: bold;
   font-size: 24px;
   line-height: 28px;
+  font-weight: bold;
   text-align: center;
-  text-transform: uppercase;
   color: white;
+  text-transform: uppercase;
 }
 .causes-one-list-item-two {
   font-style: normal;
   font-weight: normal;
-  text-transform: uppercase;
   color: white;
+  text-transform: uppercase;
 }
 .causes-one-list-item {
   background: #83B3D3;
@@ -98,8 +98,8 @@ body {
 .blacktext {
   font-size: 24px;
   line-height: 28px;
-  text-transform: uppercase;
   color: #000000;
+  text-transform: uppercase;
 }
 .causes-three-list-right {
   background: #83B3D3;
@@ -122,23 +122,23 @@ body {
   color: #333333;
 }
 .hotel-search-list-the {
-  text-align: center;
-  text-transform: uppercase;
   width: 575px;
   height: 60px;
+  text-align: center;
+  text-transform: uppercase;
 }
 .search-braun-big {
   width: 575px;
   height: 60px;
-  background: #756257;
-  border-radius: 10px;
-  font-weight: bold;
   font-size: 20px;
   line-height: 36px;
+  font-weight: bold;
   text-align: center;
-  text-transform: uppercase;
   color: #FFFFFF;
+  background: #756257;
+  border-radius: 10px;
   text-decoration: none;
+  text-transform: uppercase;
 }
 .subscription {
   background-image: url("image/index/background-image.jpg");
@@ -150,93 +150,83 @@ body {
 }
 .whitetext {
   font-style: normal;
-  font-weight: bold;
   font-size: 30px;
   line-height: 36px;
+  font-weight: bold;
   text-align: center;
-  text-transform: uppercase;
   color: #FFFFFF;
+  text-transform: uppercase;
 }
 .subscription-list-item {
   font-style: normal;
-  font-weight: normal;
   font-size: 22px;
   line-height: 26px;
+  font-weight: normal;
   text-align: center;
-  list-style-type: none;
 }
 .subscription-list-item-normal {
-  color: white;
-  list-style-type: none;
+  font-style: normal;
   font-size: 22px;
   line-height: 26px;
-  font-style: normal;
   font-weight: normal;
+  color: white;
 }
 .form-two-button {
-  background: #F2F2F2;
-  border-radius: 10px 0px 0px 10px;
   width: 600px;
   height: 60px;
+  background: #F2F2F2;
+  border-radius: 10px 0px 0px 10px;
 }
 .button {
   width: 200px;
   height: 60px;
-  background: #83B3D3;
-  border-radius: 0px 10px 10px 0px;
-  color: white;
   font-style: normal;
-  font-weight: bold;
   font-size: 20px;
   line-height: 26px;
+  font-weight: bold;
   text-align: center;
+  color: white;
+  background: #83B3D3;
+  border-radius: 0px 10px 10px 0px;
   text-transform: uppercase;
-}
-.nav-list-left {
-  list-style-type: none;
 }
 .nav-list-item-footer {
   width: 18px;
   height: 15px;
 }
 .tel {
-  font-family: "PT Sans", sans-serif;
   font-size: 40px;
   line-height: 40px;
   text-align: center;
   color: inherit;
   text-decoration: none;
   text-transform: uppercase;
-  list-style-type: none;
-  font-style: normal;
-  font-weight: normal;
 }
 /*hotels*/
 .hotels {
-  font-weight: normal;
   font-size: 18px;
   line-height: 23px;
+  font-weight: normal;
 }
 .gl {
   color: black;
 }
 .main-img {
+  color: lightsalmon;
+  background-color: antiquewhite;
   background-image: url("image/hotels/catalog-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
-  color: lightsalmon;
-  background-color: antiquewhite;
 }
 .main-text-h1 {
-  font-weight: bold;
   font-size: 60px;
   line-height: 78px;
+  font-weight: bold;
   color: white;
 }
 .nav-list-home {
   color: white;
   text-decoration: none;
-  list-style-type: none;
 }
 .nav-link-current {
   color: white;
@@ -248,19 +238,19 @@ body {
 .infrastructure-leg,
 .housing-leg,
 .price-leg {
-  font-weight: bold;
   font-size: 20px;
   line-height: 26px;
+  font-weight: bold;
 }
 .button-apply {
   width: 160px;
   height: 48px;
-  background: #83B3D3;
-  border-radius: 4px;
-  color: #FFFFFF;
-  font-weight: bold;
   font-size: 16px;
   line-height: 21px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background: #83B3D3;
+  border-radius: 4px;
 }
 .search-section,
 .hotel,
@@ -276,8 +266,8 @@ body {
 .search-section-form-display-sel {
   width: 287px;
   height: 48px;
-  border: 2px solid #E6E6E6;
   box-sizing: border-box;
+  border: 2px solid #E6E6E6;
   border-radius: 4px;
 }
 .decoration {
@@ -285,9 +275,9 @@ body {
 }
 .name {
   font-style: normal;
-  font-weight: bold;
   font-size: 24px;
   line-height: 31px;
+  font-weight: bold;
   color: black;
   text-decoration: none;
 }
@@ -302,41 +292,41 @@ body {
 .hotels4-about {
   width: 151px;
   height: 37px;
+  font-weight: bold;
+  color: white;
   background: #756257;
   border-radius: 4px;
-  color: white;
   text-transform: uppercase;
-  font-weight: bold;
 }
 .hotels-form-a,
 .hotels2-form-a,
 .hotels4-form-a {
   width: 160px;
   height: 37px;
+  font-weight: bold;
+  color: white;
   background: #83B3D3;
   border-radius: 4px;
-  color: white;
   text-transform: uppercase;
-  font-weight: bold;
 }
 .hotels3-form-a {
   width: 160px;
   height: 37px;
+  font-weight: bold;
+  color: white;
   background: #7DB54F;
   border-radius: 4px;
-  color: white;
   text-transform: uppercase;
-  font-weight: bold;
 }
 .loading {
   width: 625px;
   height: 55px;
+  text-align: center;
+  font-weight: bold;
+  color: #FFFFFF;
   background: #83B3D3;
   border-radius: 4px;
-  text-align: center;
-  color: #FFFFFF;
   text-transform: uppercase;
-  font-weight: bold;
 }
 .pages-item-one {
   color: black;
