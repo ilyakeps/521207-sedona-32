@@ -266,7 +266,6 @@ body {
 .search-section-form-display-sel {
   width: 287px;
   height: 48px;
-  box-sizing: border-box;
   border: 2px solid #E6E6E6;
   border-radius: 4px;
 }
