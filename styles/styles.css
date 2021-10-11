@@ -145,9 +145,6 @@ body {
   background-size: 100% auto;
   background-repeat:no-repeat;
 }
-.subscription-list {
-  text-align: center;
-}
 .subscribetext {
   font-style: normal;
   font-size: 30px;
@@ -163,12 +160,6 @@ body {
   line-height: 26px;
   font-weight: normal;
   text-align: center;
-}
-.subscription-list-item-normal {
-  font-style: normal;
-  font-size: 22px;
-  line-height: 26px;
-  font-weight: normal;
   color: #FFFFFF;
 }
 .form-two-button {
