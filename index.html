@@ -9,7 +9,7 @@
 <header class="main-nav">
   <nav class="navigation">
     <section class="navigation-section">
-      <ul class="nav-list-left">
+      <ul class="nav-list">
         <li class="nav-list-item nav-link-current">
           <a class="navi-item gl" title="вы уже на главной!!">Главная</a>
         </li>
@@ -23,7 +23,7 @@
       <a class="nav-list-item-image">
         <img src="styles/image/index/logo-sedona.svg" width="138" height="70" alt="Лого Седоны">
       </a>
-      <ul class="nav-list-right">
+      <ul class="nav-list nav-user">
         <li class="nav-list-item-icon">
           <a class="navi-item" href="#">
             <span class="visually-hidden">Поиск</span>
@@ -34,84 +34,96 @@
             <span class="visually-hidden">Избранное</span>
           </a>
         </li>
+        <li class="nav-list-item-home">
+          <a class="search-braun" href="#">Хочу сюда</a>
+        </li>
       </ul>
-      <a class="search-braun" href="#">Хочу сюда</a>
     </section>
   </nav>
 </header>
-<main class="image-main">
-  <section class="main-section-image">
-    <img class="logo-image" src="styles/image/index/welcome1.svg" width="458" height="352" alt="Добро пожаловать">
-  </section>
-  <section class="causes">
+<main class="main-container image-main">
+  <div class="page-container">
+    <section class="main-section-image">
+      <img class="logo-image" src="styles/image/index/welcome1.svg" width="458" height="352" alt="Добро пожаловать">
+    </section>
+  </div>
+  <section class="causes no-padding">
     <h2 class="main-text">
       седона - небольшой городок в аризоне,<br>
       заслуживающий большего!
     </h2>
-    <p class="causes-p">
+    <p class="causes-p no-padding">
       Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!
     </p>
     <ul class="causes-one">
-      <li class="causes-one-list-item">
-        <p class="causes-one-list-item-one">
-          <b>Настоящий городок</b>
-        </p>
-        <p class="causes-one-list-item-two">-№1-</p>
-        <p class="causes-one-list-item-three">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-      </li>
-      <img class="image-one-right" src="styles/image/index/photo-1.jpg" width="800" height="384"
-           alt="картинка местности вокруг Седоны">
-      <li class="causes-two-list-item">
-        <img class="image-home" src="styles/image/index/icon-home.svg" width="75" height="72">
-        <p class="causes-two-list-item-thwo">
-          <b class="benefits">Жильё</b>
-        </p>
-        <p class="causes-two-list-item-thee">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
-      </li>
-      <li class="causes-two-list-item">
-        <img class="image-home" src="styles/image/index/icon-food.svg" width="74" height="70">
-        <p class="causes-two-list-item">
-          <b class="benefits">Еда</b>
-        </p>
-        <p class="causes-two-list-item-thee">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
-      </li>
-      <li class="causes-two-list-item">
-        <img class="image-home" src="styles/image/index/icon-present.svg" width="64" height="76">
-        <p class="causes-two-list-item">
-          <b class="benefits">Сувениры</b>
-        </p>
-        <p class="causes-two-list-item-thee">Не только китайского, но и настоящего местного производства!</p>
-      </li>
-      <img class="image-three-left" src="styles/image/index/photo-2.jpg" width="800" height="384"
-           alt="картинка Мост Дьявола">
-      <li class="causes-three-list-right">
-        <p class="causes-three-list-item">
-          <b class="causes-one-list-item-one">Там есть мост Дьявола</b>
-        </p>
-        <p class="causes-one-list-item-two">-№2-</p>
-        <p class="causes-one-list-item-three">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
-      </li>
-      <li class="causes-four-list-left">
-        <p class="causes-four-list-item">
-          <b class="benefits">Небольшая площадь</b>
-        </p>
-        <p class="causes-two-list-item-two">-№3</p>
-        <p class="causes-two-list-item-thee">Все достопримечательности находятся очень близко</p>
-      </li>
-      <li class="causes-four-list-center">
-        <p class="causes-four-list-item">
-          <b class="benefits">Красивая дорога</b>
-        </p>
-        <p class="causes-two-list-item-two">-№4</p>
-        <p class="causes-two-list-item-thee">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
-      </li>
-      <li class="causes-four-list-right">
-        <p class="causes-four-list-item">
-          <b class="benefits">Мало туристов</b>
-        </p>
-        <p class="causes-two-list-item-two">-№5</p>
-        <p class="causes-two-list-item-thee">Большинство едет в Гранд Каньон и толпится там</p>
-      </li>
+      <div class="one-div">
+        <li class="causes-one-list-item no-padding">
+          <p class="causes-one-list-item-one">
+            <b>Настоящий городок</b>
+          </p>
+          <p class="causes-one-list-item-two">-№1-</p>
+          <p class="causes-one-list-item-three">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+        </li>
+        <img class="image-one-right no-padding" src="styles/image/index/photo-1.jpg" width="800" height="384"
+             alt="картинка местности вокруг Седоны">
+      </div>
+      <div class="two-div">
+        <li class="causes-two-list-item no-padding">
+          <img class="image-home" src="styles/image/index/icon-home.svg" width="75" height="72">
+          <p class="causes-two-list-item-thwo">
+            <b class="benefits">Жильё</b>
+          </p>
+          <p class="causes-two-list-item-thee">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+        </li>
+        <li class="causes-two-list-item-two">
+          <img class="image-home" src="styles/image/index/icon-food.svg" width="74" height="70">
+          <p class="causes-two-list-item">
+            <b class="benefits">Еда</b>
+          </p>
+          <p class="causes-two-list-item-thee">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
+        </li>
+        <li class="causes-two-list-item">
+          <img class="image-home" src="styles/image/index/icon-present.svg" width="64" height="76">
+          <p class="causes-two-list-item">
+            <b class="benefits">Сувениры</b>
+          </p>
+          <p class="causes-two-list-item-thee">Не только китайского, но и настоящего местного производства!</p>
+        </li>
+      </div>
+      <div class="three-div">
+        <img class="image-three-left no-padding" src="styles/image/index/photo-2.jpg" width="800" height="384"
+             alt="картинка Мост Дьявола">
+        <li class="causes-three-list-right no-padding">
+          <p class="causes-three-list-item">
+            <b class="causes-one-list-item-one">Там есть мост Дьявола</b>
+          </p>
+          <p class="causes-one-list-item-two">-№2-</p>
+          <p class="causes-one-list-item-three">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+        </li>
+      </div>
+      <div class="one-div">
+        <li class="causes-four-list-left no-padding">
+          <p class="causes-four-list-item">
+            <b class="benefits">Небольшая площадь</b>
+          </p>
+          <p class="causes-two-list-item-two">-№3</p>
+          <p class="causes-two-list-item-thee">Все достопримечательности находятся очень близко</p>
+        </li>
+        <li class="causes-four-list-center no-padding">
+          <p class="causes-four-list-item">
+            <b class="benefits">Красивая дорога</b>
+          </p>
+          <p class="causes-two-list-item-two">-№4</p>
+          <p class="causes-two-list-item-thee">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+        </li>
+        <li class="causes-four-list-right no-padding">
+          <p class="causes-four-list-item">
+            <b class="benefits">Мало туристов</b>
+          </p>
+          <p class="causes-two-list-item-two">-№5</p>
+          <p class="causes-two-list-item-thee">Большинство едет в Гранд Каньон и толпится там</p>
+        </li>
+      </div>
     </ul>
   </section>
   <section class="hotel-search-section">
@@ -126,8 +138,10 @@
           и мы покажем вам лучшие предложения гостиниц в Седоне
         </p>
       </li>
+      <li>
+        <a class="search-braun-big" href="hotels.html">поиск гостиницы в седоне</a>
+      </li>
     </ul>
-    <a class="search-braun-big" href="hotels.html">поиск гостиницы в седоне</a>
   </section>
   <section class="subscription">
     <h1 class="subscription-list-item">
@@ -146,7 +160,7 @@
     </form>
   </section>
 </main>
-<footer>
+<footer class="end">
   <ul class="nav-list-left">
     <li class="nav-list-item-footer">
       <a href="https://twitter.com/htmlacademy_ru">
